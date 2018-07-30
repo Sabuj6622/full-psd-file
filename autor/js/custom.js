@@ -1,0 +1,38 @@
+$(document).ready(function(){
+   $('.slider-active').owlCarousel({ 
+    loop:true,
+    nav:true,
+	items:1,
+	smartspeed:1500,
+	navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});  
+$('.testimonial_active').owlCarousel({ 
+    loop:true,
+    nav:true,
+	items:1,
+	smartspeed:1500,
+	navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+});
